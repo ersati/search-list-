@@ -1,3 +1,22 @@
-h1, h2 {
+h1,
+h2 {
   font-family: Lato;
+}
+
+@keyframes in {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes out {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
